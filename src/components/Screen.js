@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import '../css/Screen.css';
 
-const Screen = () => {
+const Screen = ({ value }) => {
   return (
-    <div>Screen</div>
-  )
-}
+    <div className="screen" mode="single" max={70}>
+      {value}
+    </div>
+  );
+};
 
-export default Screen
+export default Screen;
