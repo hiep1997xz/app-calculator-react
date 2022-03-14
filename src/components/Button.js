@@ -3,9 +3,9 @@ import '../css/Button.css';
 
 const Button = ({ onClick, className, value }) => {
   return (
-    <div className={className} onClick={onClick}>
+    <button className={className} onClick={onClick}>
       {value}
-    </div>
+    </button>
   );
 };
 
